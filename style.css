@@ -1,0 +1,54 @@
+body {
+    background-color: lightblue
+}
+
+h4{
+    color: black;
+    text-align: center;
+}
+
+h5{
+    margin-top: 2px;
+    color: black;
+    text-align: center;
+}
+
+#tabeljocuri{
+        border-spacing: 15px;
+        border: 2px solid blue;
+        text-align: center;
+        font-size: 18px;
+        background-color: grey;
+        border-collapse: separate;
+        margin-left: 150px;
+        margin-top: 100px;
+}
+th{
+    border: 5px solid blue;
+    background-color: lightgrey;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+}
+p{
+    border: 2.5px solid black;
+    border-collapse: separate;
+    display: inline-block;
+    background-color: green;
+    margin-left: 2px;
+    left: 20px;
+}
+#p1{
+}
+p.p2{
+    margin-left: -4px;
+}
+#bara{
+    position: fixed:
+}
