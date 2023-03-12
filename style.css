@@ -45,11 +45,12 @@ p{
     margin-left: 2px;
     left: 20px;
 }
-#p1{
-}
 p.p2{
     margin-left: -4px;
 }
 #bara{
-    position: fixed:
+    position: fixed;
+}
+#datta{
+    float: right;
 }
