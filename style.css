@@ -22,7 +22,7 @@ h5{
         border-collapse: separate;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 100px;
+        margin-top: auto;
 }
 th{
     border: 5px solid blue;
@@ -37,7 +37,8 @@ a:visited{
     text-decoration: none;
     display: inline-block;
 }
-p{
+p.p2{
+    margin-left: -4px;
     border: 2.5px solid black;
     border-collapse: separate;
     display: inline-block;
@@ -45,12 +46,31 @@ p{
     margin-left: 2px;
     left: 20px;
 }
-p.p2{
-    margin-left: -4px;
-}
 #bara{
     position: fixed;
 }
-#datta{
+#Dataora{
     float: right;
+}
+footer{
+    background-color: darkgrey;
+    text-align: center;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+#cpy{
+    font-size: 15px;
+    bottom: 0;
+}
+#discord{
+    opacity: 1;
+    background-color: transparent;
+}
+#btndisc{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
