@@ -12,7 +12,11 @@ h5{
     color: black;
     text-align: center;
 }
-
+#Boxx{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 #tabeljocuri{
         border-spacing: 15px;
         border: 2px solid blue;
@@ -126,4 +130,79 @@ header{
 }
 .BarOpen:hover .BarContent{
     display: block;
+}
+.container_table th h1 {
+  font-weight: bold;
+  font-size: 1em;
+  text-align: left;
+  color: #185875;
+}
+
+.container_table td {
+    font-weight: normal;
+    font-size: 1em;
+    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+    -moz-box-shadow: 0 2px 2px -2px #0E1119;
+    box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.container_table {
+    float: left;
+    text-align: left;
+    overflow: hidden;
+    width: 40%;
+    margin-top:   5%;
+    margin-left: 2%;
+
+    display: table;
+    padding: 0 0 8em 0;
+}
+.container_table caption{
+    font-size: 2em;
+}
+
+.container_table td, .container_table th {
+    padding-bottom: 2%;
+    padding-top:    2%;
+    padding-left:   2%; 
+}
+
+/* Background-color of the odd rows */
+.container_table tr:nth-child(odd) {
+    background-color: lightgrey;
+} 
+
+/* Background-color of the even rows */
+.container_table tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+.container_table th {
+    background-color: lightgrey;
+}
+
+.container_table tr:hover {
+    background-color: lightgrey;
+    -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+    -moz-box-shadow: 0 6px 6px -6px #0E1119;
+    box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.container_table td:hover {
+  background-color: #FFF842;
+  color: #403E10;
+  font-weight: bold;
+  
+  box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+  transform: translate3d(6px, -6px, 0);
+  
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+
+@media (max-width: 800px) {
+.container_table td:nth-child(4),
+.container_table th:nth-child(4) { display: none; }
 }
