@@ -22,24 +22,52 @@ html, body {
 }
 
 #name{
-    margin-top: 35%;
-    margin-left: 5%;
     color: white;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 #btndisc{
     background-color: transparent;
     border: none;
     cursor: pointer;
-    margin-right: 125px;
+}
+
+#id1{
+    position: relative;
+    top: 65%;
+    text-align: center;
+    transform: translateY(-65%);
+    white-space: nowrap;
+    overflow-x: auto;
 }
 
 #id2{
-    float: right;
-    margin-top: 1%;
-    margin-right: 10%;
+    display: inline-block;
+    margin-left: 30%;
 }
 
+
+@media only screen and (max-width: 900px){
+
+#name{
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#id1{
+    position: relative;
+    top: 65%;
+    text-align: center;
+    transform: translateY(-65%);
+}
+#id2{
+    display: flex;
+    padding-left: 20px;
+} 
+
+}
 
