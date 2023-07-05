@@ -56,17 +56,22 @@ html, body {
     color: white;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
 #id1{
     position: relative;
     top: 65%;
-    text-align: center;
     transform: translateY(-65%);
 }
 #id2{
     display: flex;
-    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 } 
 
 }
