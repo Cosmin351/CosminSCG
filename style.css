@@ -42,13 +42,19 @@ html, body {
     transform: translateY(-65%);
     white-space: nowrap;
     overflow-x: auto;
+    overflow-y: hidden;
+    height: 150px;
 }
 
 #id2{
     display: inline-block;
     margin-left: 30%;
+    padding-top: 10px;
 }
 
+#as{
+    margin-left: 25px;
+}
 
 @media only screen and (max-width: 900px){
 
@@ -73,6 +79,10 @@ html, body {
     align-items: center;
     margin: 0;
 } 
+
+#as{
+    margin-left: 5px;
+}
 
 }
 
