@@ -10,20 +10,19 @@ particlesJS.load('particles-js', 'particles.json', function() {
 */
 
 /* Otherwise just put the config content (json): */
-
 particlesJS('particles-js',
-  
+
 {
   "particles": {
     "number": {
-      "value": 128,
+      "value": 100,
       "density": {
         "enable": true,
         "value_area": 473.4885849793636
       }
     },
     "color": {
-      "value": "#83aa78"
+      "value": "#7ff000"
     },
     "shape": {
       "type": "circle",
@@ -63,7 +62,7 @@ particlesJS('particles-js',
     "line_linked": {
       "enable": true,
       "distance": 157.82952832645452,
-      "color": "#040405",
+      "color": "#ffffff",
       "opacity": 0.7891476416322727,
       "width": 1.1048066982851816
     },

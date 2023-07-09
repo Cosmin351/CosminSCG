@@ -3,9 +3,145 @@ html, body {
 }
 
 #bdy{
-    width: 100%;
-    height: 100%;
-    background-image: url("assets/temp_background.jpg");
     background-repeat: no-repeat;
+    background-color: black;
     background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#particles-js{
+    background-color: black;
+    border: none;
+    width: 100%;
+    height: 100%;  
+}
+
+canvas {
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+.Line{
+    display: block;
+    position: relative;
+    top: -90%;
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+}
+
+#Line2{
+    margin-top: 5%;
+}
+
+.box{
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    text-align: center;
+    background-color: blue;
+    width: 15%;
+    height: 8rem;
+    margin: 5%;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+#box1{
+    background-color: orange;
+    left: 10%;
+}
+
+#box2{
+    background-color: lightgreen;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#box3{
+    background-color: rebeccapurple;
+    right: 10%;
+}
+
+.subbox{
+    width: 100%;
+    height: 8rem;
+    border-radius: 10px;
+    transition: 0.20s;
+}
+
+.subboxx2{
+    opacity: 0;
+    transition: opacity 0.45s ease;
+}
+
+#subbox1_1{
+    background-image: url("assets/snake.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#subbox2_1{
+    background-image: url("assets/ttt.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#subbox3_1{
+    background-image: url("assets/dino.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#subbox4_1{
+    background-image: url("assets/ci.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#subbox5_1{
+    background-image: url("assets/nf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+
+#subbox6_1{
+    background-image: url("assets/nothing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box:hover{
+    height: 100%;
+    box-shadow: 0 0 50px #7ff000;
+}
+
+.box:hover .subboxx2{
+    opacity: 1;
+}
+
+.box:hover .subbox{
+    border-radius: 10px 10px 0 0;
+}
+
+#id2{
+    display: flex;
+    text-align: center;
+    position: sticky;
+    bottom: 0%;
+    top: 90%;
+    transform: translateY(-70%);
+    justify-content: center;
+    align-items: center;
+}
+
+#as{
+    margin: 10px;
 }
