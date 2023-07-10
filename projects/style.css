@@ -42,10 +42,6 @@ html, body {
     margin-right: 9%;
 }
 
-#buton_arduino{
-    position: sticky;
-}
-
 #imgbtn{
     display: inline-block;
     transition: all 0.75s;
@@ -62,6 +58,16 @@ html, body {
 
 #imgbtn:hover::after{
     transition: 0.75s;
+}
+
+.btnarduino:hover {
+    border-radius: 100%;
+    box-shadow: 0 0 50px #12ffff;
+}
+
+.btnpython:hover {
+    border-radius: 25%;
+    box-shadow: 0 0 50px #12ffff;
 }
 
 
@@ -84,15 +90,14 @@ canvas {
 
 @media only screen and (max-width: 900px){
 
-    #buttons{
-        top: 40%;
+    #imgbtn{
+        display: flex;
+
     }
 
-    #button{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
+    .button{
+        text-align: center;
+        margin: 2rem;
     }
 
     #id2{
